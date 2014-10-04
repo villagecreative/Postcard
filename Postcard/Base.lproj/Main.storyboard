@@ -47,7 +47,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1056" y="136"/>
+            <point key="canvasLocation" x="869" y="136"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wXo-ae-9hp">
@@ -106,6 +106,15 @@
                                     <action selector="sendMailButtonPressed:" destination="Zgs-Z8-FRm" eventType="touchUpInside" id="uOI-ZK-iCu"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3d-Im-ZzV">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="197" width="149" height="50"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -115,6 +124,7 @@
                                 <exclude reference="J9e-Mx-mKy"/>
                                 <exclude reference="Azt-ac-Ktw"/>
                                 <exclude reference="cPe-wF-5hZ"/>
+                                <exclude reference="E3d-Im-ZzV"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -124,6 +134,7 @@
                                 <include reference="J9e-Mx-mKy"/>
                                 <include reference="Azt-ac-Ktw"/>
                                 <include reference="cPe-wF-5hZ"/>
+                                <include reference="E3d-Im-ZzV"/>
                             </mask>
                         </variation>
                     </view>
@@ -133,11 +144,12 @@
                         <outlet property="enterNameTextField" destination="J9e-Mx-mKy" id="ycN-dF-hVN"/>
                         <outlet property="mailButton" destination="cPe-wF-5hZ" id="2Gl-J8-6KO"/>
                         <outlet property="messageLabel" destination="LG4-kK-tkh" id="tcM-0F-e5p"/>
+                        <outlet property="nameLabel" destination="E3d-Im-ZzV" id="dqN-ck-YRQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ita-JV-B8K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1719" y="136"/>
+            <point key="canvasLocation" x="1521" y="136"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="nom-Wr-05Y">
@@ -156,7 +168,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dLj-hv-n6D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="408" y="136"/>
+            <point key="canvasLocation" x="246" y="136"/>
         </scene>
     </scenes>
     <resources>
